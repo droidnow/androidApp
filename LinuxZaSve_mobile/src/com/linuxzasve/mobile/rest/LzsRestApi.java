@@ -20,7 +20,7 @@ import org.apache.http.message.BasicNameValuePair;
 
 public class LzsRestApi {
 
-	String baseUrl = "http://www.linuxzasve.com/api/";
+	String baseUrl = "http://www.droid-now.com/api/";
 
 	/* number of posts to fetch */
 	Integer numberOfPosts = Integer.valueOf(10);

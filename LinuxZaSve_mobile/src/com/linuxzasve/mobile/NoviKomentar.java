@@ -170,7 +170,7 @@ public class NoviKomentar extends SherlockActivity {
 	    protected Integer doInBackground(String... urls) {
 	    	HttpResponse response = null;
 	    	HttpClient httpclient = new DefaultHttpClient();
-		    HttpPost httppost = new HttpPost("http://www.linuxzasve.com/wp-comments-post.php");
+		    HttpPost httppost = new HttpPost("http://www.droid-now.com/wp-comments-post.php");
 		    httppost.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
 		    httppost.setHeader("Accept-Encoding", "gzip, deflate");
 		    httppost.setHeader("Accept-Language", "en-US,en;q=0.5");

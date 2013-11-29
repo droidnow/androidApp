@@ -135,7 +135,7 @@ public class ListaNovosti extends SherlockActivity {
 			holder.autor.setText(values.get(position).getAuthor().getNickname());
 			holder.broj_komentara.setText(Integer.toString(values.get(position).getComment_count()));
 
-			String thumbnailUrl = TimThumb.generateTimThumbUrl(values.get(position).getThumbnail_images().getFull().getUrl(), 256, 256, 1);
+			String thumbnailUrl = values.get(position).getThumbnail_images().getFull().getUrl();
 			UrlImageViewHelper.setUrlDrawable(holder.thumbnail, thumbnailUrl);
 
 			return convertView;

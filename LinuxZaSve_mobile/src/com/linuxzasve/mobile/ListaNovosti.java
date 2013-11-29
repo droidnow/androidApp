@@ -189,7 +189,7 @@ public class ListaNovosti extends SherlockActivity {
 
 	public void fetchArticles() {
 		if (ActivityHelper.isOnline(this)) {
-			new DownloadRssFeed().execute("http://feeds.feedburner.com/linuxzasve");
+			new DownloadRssFeed().execute("http://feeds.feedburner.com/Droid-Now");
 		}
 		else {
 			Toast toast = Toast.makeText(getBaseContext(), R.string.nedostupan_internet, Toast.LENGTH_LONG);
